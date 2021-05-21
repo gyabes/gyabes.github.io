@@ -13,8 +13,9 @@
         global $affAPI;
         $start = new DateTime();
         $start->modify("-45 days");
-        $result = $affAPI->getAffiliateReportsWithHttpInfo("8c4da671-18d3-46fa-a049-d90aef43cd61", "sales", $start, new DateTime());
-        print("<pre>".print_r($result,true)."</pre>");
+        print("HEY FROM SERVER");
+        //$result = $affAPI->getAffiliateReportsWithHttpInfo("8c4da671-18d3-46fa-a049-d90aef43cd61", "sales", $start, new DateTime());
+        //print("<pre>".print_r($result,true)."</pre>");
     }
 
     function test_getAffiliateCampaigns() {
